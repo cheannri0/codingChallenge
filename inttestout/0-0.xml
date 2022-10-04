@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Launch eBay and Search" timestamp="2022-10-04T14:32:55" time="4.575" tests="1" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="featureName" value="Launch eBay and Search"/>
+      <property name="capabilities" value="chrome.106_0_5249_91.windows"/>
+      <property name="featureFile" value=".\features\ebay-search.feature"/>
+    </properties>
+    <testcase classname="CucumberJUnitReport-chrome.106_0_5249_91.windows.Launch eBay and Search" name="As a user I can acess eBay and search" time="4.554">
+      <system-out><![CDATA[
+✅ Given I am on eBay landing page✅ When I search for ipad✅ Then I should get search results for ipad
+]]></system-out>
+    </testcase>
+  </testsuite>
+</testsuites>
